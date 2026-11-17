@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://local-source-004.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-004.example.test/records/hand_config-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 147,
+        "sha256": "67091a712e4a36f4a283fdeb30fff7e152901188cb5dd0eece08f9264572f278"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-004.example.test/records/test_card-B",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-2.bin",
+        "status": 200,
+        "bytes": 141,
+        "sha256": "e93fe3bb6331323be98f77b185f1b77797026c76e6d0c19513210c1c679776fa"
+      }
+    }
+  ]
+}
