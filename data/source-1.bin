@@ -2,7 +2,7 @@
   "kind": "hand_config",
   "id": "hand_config-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "published"
+  "configuration": "grip-A",
+  "hand_model": "H-1",
+  "page_scope": "grip-A"
 }

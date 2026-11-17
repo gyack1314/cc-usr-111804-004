@@ -1,0 +1,24 @@
+{
+  "roles": [
+    "hand_config",
+    "test_card"
+  ],
+  "relation_field": "configuration",
+  "required_fields": {
+    "hand_config": [
+      "configuration",
+      "hand_model",
+      "page_scope"
+    ],
+    "test_card": [
+      "configuration",
+      "card_scope",
+      "report_no"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}

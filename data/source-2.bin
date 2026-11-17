@@ -1,8 +1,8 @@
 {
   "kind": "test_card",
-  "id": "test_card-B",
+  "id": "test_card-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "pending"
+  "configuration": "grip-A",
+  "card_scope": "grip-A",
+  "report_no": "H-R1"
 }
