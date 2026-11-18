@@ -1,0 +1,9 @@
+{
+  "sources": [
+    {
+      "scope": "灵巧手配置 B",
+      "kind": "test_card",
+      "required": true
+    }
+  ]
+}
