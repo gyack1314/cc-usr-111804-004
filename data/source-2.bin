@@ -2,7 +2,7 @@
   "kind": "test_card",
   "id": "test_card-A",
   "revision": "v1",
-  "configuration": "grip-A",
-  "card_scope": "grip-A",
+  "configuration": "灵巧手配置 A",
+  "card_scope": "灵巧手配置 A",
   "report_no": "H-R1"
 }

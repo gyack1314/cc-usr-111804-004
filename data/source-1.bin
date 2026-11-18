@@ -2,7 +2,7 @@
   "kind": "hand_config",
   "id": "hand_config-A",
   "revision": "v1",
-  "configuration": "grip-A",
+  "configuration": "灵巧手配置 A",
   "hand_model": "H-1",
-  "page_scope": "grip-A"
+  "page_scope": "灵巧手配置 A"
 }
