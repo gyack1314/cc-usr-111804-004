@@ -1,13 +1,14 @@
-<!doctype html><html lang="zh"><meta charset="utf-8"><title>训练场次演练页</title>
-<body><h1>训练场次资料</h1><button type="button" id="switch">切换</button>
-<div id="card">场次 A 设备表</div><pre id="state"></pre>
+<!doctype html><html lang="zh"><meta charset="utf-8"><title>测试报告演练页</title>
+<body><h1>测试报告资料</h1><button type="button" id="switch">切换</button>
+<div id="card">原配置报告</div><pre id="state"></pre>
 <script>
-let state={scope:"场次 A",card_scope:"场次 A",phase:'loaded'};
+let state={"scope": "灵巧手配置 A", "card_scope": "灵巧手配置 A", "phase": "loaded", "card": {"kind": "hand_config", "id": "hand_config-A", "revision": "v1", "configuration": "grip-A", "hand_model": "H-1", "page_scope": "grip-A"}};
+const next={"scope": "灵巧手配置 B", "card_scope": "灵巧手配置 B", "phase": "loaded", "card": {"kind": "test_card", "id": "test_card-A", "revision": "v2", "configuration": "grip-A", "card_scope": "grip-A", "report_no": "H-R1"}};
 const show=()=>document.querySelector('#state').textContent=JSON.stringify(state);
 show();
 document.querySelector('#switch').onclick=()=>{
-  state.scope="场次 B"; state.phase='pending'; show();
-  setTimeout(()=>{state.card_scope=state.scope; state.phase='loaded';
-    document.querySelector('#card').textContent="场次 B 设备表"; show();},300);
+  state.scope=next.scope; state.phase='pending'; show();
+  setTimeout(()=>{state=next;
+    document.querySelector('#card').textContent="新配置报告"; show();},300);
 };
 </script></body></html>
